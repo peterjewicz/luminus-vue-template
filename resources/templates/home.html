@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row" id="app">
+  <div class="col-sm-12">
+    <example-component></example-component>
+    {{docs|markdown}}
+  </div>
+</div>
+{% endblock %}
